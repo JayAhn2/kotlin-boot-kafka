@@ -3,5 +3,8 @@
 ### 1. Up Kafka + Zookeeper on Docker
 `$ docker-compose -f docker-compose.yml up`
 
+### 2. Run the Spring app
+`$ gradle build && gradle bootRun`
+
 ### 2. Produce Message
 `$ curl -X POST http://localhost:8080/api/message -d "Kafka works!" -H "Content-Type: text/plain"`
