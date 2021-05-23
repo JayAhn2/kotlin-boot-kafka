@@ -1,7 +1,7 @@
 # Kotlin + Spring Boot + Kafka + Docker
 
-## Up Kafka + Zookeeper on Docker
+### 1. Up Kafka + Zookeeper on Docker
 `$ docker-compose -f docker-compose.yml up`
 
-## Produce Message
+### 2. Produce Message
 `$ curl -X POST http://localhost:8080/api/message -d "Kafka works!" -H "Content-Type: text/plain"`
