@@ -7,4 +7,4 @@
 `$ gradle build && gradle bootRun`
 
 ### 2. Produce Message
-`$ curl -X POST http://localhost:8080/api/message -d "Kafka works!" -H "Content-Type: text/plain"`
+`$ curl -X POST http://localhost:8080/api/message -d "Kafka works" -H "Content-Type: text/plain"`
